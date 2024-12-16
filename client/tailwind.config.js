@@ -1,11 +1,11 @@
-/** @type {import('tailwindcss').Config} */
+import plugin from "@tailwindcss/line-clamp";
+
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     extend: {},
   },
   plugins: [
-    require('@tailwindcss/line-clamp'),
-    // ...
+    plugin, // Adjusted to use ES module import
   ],
 };
