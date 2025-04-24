@@ -1,1 +1,1 @@
-Mern Real Estate Application
+PropNex Application
